@@ -15,6 +15,11 @@ export const Nav = () => {
       Events
      </Link>
     </li>
+    <li className="px-5">
+     <Link className="text-offwhite font-medium hover:text-sun" href="/profile">
+      Profile
+     </Link>
+    </li>
    </ul>
   </nav>
  );
